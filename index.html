@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="reset.css" rel="stylesheet">
+	<link href="normalize.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 	<link href="style.css" type="text/css" rel="stylesheet">
 	<title>Static Comp 2</title>
@@ -10,17 +10,65 @@
 <body>
 	<header>
 		<nav>
-			<img src="" class="" alt="">Players
-			<img src="" class="" alt="">Teams
-			<img src="" class="" alt="">Custom Team
+			<img src="images/baseball.svg" class="icon" alt="">Teams
+			<img src="images/jersey.svg" class="icon" alt="">Players
+			<img src="images/plus.svg" class="icon" alt="">Custom Team
 		</nav>
-		<img src="" class="" alt="">My Account
-		<h1>TeamBuilder</h1>
+		<span class="username">
+			My Account
+		</span>
+		<img src="images/user.svg" class="user" alt="">
+		<h1>MLB TeamBuilder</h1>
 	</header>
 	<h2 class="current-team">Rockies</h2>
 	<section class="player-cards">
 		<article class="player lucroy">
 			<p class="player-number">#21</p>
+			<div class="player-image lucroy-img"></div>
+			<p class="player-name">C - Jonathan Lucroy</p>
+			<p class="debut">MLB Debut: 5/21/2010</p>
+			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
+			<p class="walk-up">Walk-up Song</p>
+			<p class="song-name">SONG NAME</p>
+			<p class="rater">Player Rating:</p>
+			<p class="rating">99</p>
+		</article>
+		<article class="player reynolds">
+			<p class="player-number">#21</p>
+			<div class="player-image reynolds-img"></div>
+			<p class="player-name">Mark Reynolds</p>
+			<p class="debut">MLB Debut: 5/21/2010</p>
+			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
+			<p class="walk-up">Walk-up Song</p>
+			<p class="song-name">SONG NAME</p>
+			<p class="rater">Player Rating:</p>
+			<p class="rating">99</p>
+		</article>
+		<article class="player dj">
+			<p class="player-number">#21</p>
+			<div class="player-image dj-img"></div>
+			<p class="player-name">DJ LeMahieu</p>
+			<p class="debut">MLB Debut: 5/21/2010</p>
+			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
+			<p class="walk-up">Walk-up Song</p>
+			<p class="song-name">SONG NAME</p>
+			<p class="rater">Player Rating:</p>
+			<p class="rating">99</p>
+		</article>
+		<article class="player story">
+			<p class="player-number">#21</p>
+			<div class="player-image story-img"></div>
+			<p class="player-name">Trevor Story</p>
+			<p class="debut">MLB Debut: 5/21/2010</p>
+			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
+			<p class="walk-up">Walk-up Song</p>
+			<p class="song-name">SONG NAME</p>
+			<p class="rater">Player Rating:</p>
+			<p class="rating">99</p>
+		</article>
+		<article class="player lucroy">
+			<p class="player-number">#21</p>
+			<div class="player-image lucroy-img"></div>
 			<p class="player-name">Jonathan Lucroy</p>
 			<p class="debut">MLB Debut: 5/21/2010</p>
 			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
@@ -31,6 +79,7 @@
 		</article>
 		<article class="player lucroy">
 			<p class="player-number">#21</p>
+			<div class="player-image lucroy-img"></div>
 			<p class="player-name">Jonathan Lucroy</p>
 			<p class="debut">MLB Debut: 5/21/2010</p>
 			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
@@ -41,6 +90,7 @@
 		</article>
 		<article class="player lucroy">
 			<p class="player-number">#21</p>
+			<div class="player-image lucroy-img"></div>
 			<p class="player-name">Jonathan Lucroy</p>
 			<p class="debut">MLB Debut: 5/21/2010</p>
 			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
@@ -51,46 +101,7 @@
 		</article>
 		<article class="player lucroy">
 			<p class="player-number">#21</p>
-			<p class="player-name">Jonathan Lucroy</p>
-			<p class="debut">MLB Debut: 5/21/2010</p>
-			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
-			<p class="walk-up">Walk-up Song</p>
-			<p class="song-name">SONG NAME</p>
-			<p class="rater">Player Rating:</p>
-			<p class="rating">99</p>
-		</article>
-		<article class="player lucroy">
-			<p class="player-number">#21</p>
-			<p class="player-name">Jonathan Lucroy</p>
-			<p class="debut">MLB Debut: 5/21/2010</p>
-			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
-			<p class="walk-up">Walk-up Song</p>
-			<p class="song-name">SONG NAME</p>
-			<p class="rater">Player Rating:</p>
-			<p class="rating">99</p>
-		</article>
-		<article class="player lucroy">
-			<p class="player-number">#21</p>
-			<p class="player-name">Jonathan Lucroy</p>
-			<p class="debut">MLB Debut: 5/21/2010</p>
-			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
-			<p class="walk-up">Walk-up Song</p>
-			<p class="song-name">SONG NAME</p>
-			<p class="rater">Player Rating:</p>
-			<p class="rating">99</p>
-		</article>
-		<article class="player lucroy">
-			<p class="player-number">#21</p>
-			<p class="player-name">Jonathan Lucroy</p>
-			<p class="debut">MLB Debut: 5/21/2010</p>
-			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
-			<p class="walk-up">Walk-up Song</p>
-			<p class="song-name">SONG NAME</p>
-			<p class="rater">Player Rating:</p>
-			<p class="rating">99</p>
-		</article>
-		<article class="player lucroy">
-			<p class="player-number">#21</p>
+			<div class="player-image lucroy-img"></div>
 			<p class="player-name">Jonathan Lucroy</p>
 			<p class="debut">MLB Debut: 5/21/2010</p>
 			<p class="player-page">http://my.teambuilder.com/player/jonathan-lucroy</p>
