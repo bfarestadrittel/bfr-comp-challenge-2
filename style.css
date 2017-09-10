@@ -1,0 +1,101 @@
+* {
+	font-family: 'PT Sans', sans-serif;
+}
+
+body {
+	background-color: #CACDCD;
+	margin: 0px;
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	height: 140px;
+	width: 100%;
+}
+
+.icon {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 30px;
+}
+
+nav {
+	display: inline-block;
+	font-size: 1.15em;
+	margin-top: 80px;
+	text-transform: uppercase;
+}
+
+.user {
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	width: 20px;
+}
+
+.username {
+	color: #9655E0;
+	display: inline-block;
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+h1 {
+	color: #fff;
+	float: right;
+	font-size: 2.5em;
+	position: absolute;
+	top: 45px;
+	right: 1.5%;
+}
+
+h2 {
+	background-color: #CACDCD;
+	margin-left: 10px;
+}
+
+.player-cards {
+	background-color: #CACDCD;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.player {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	height: 500px;
+	width: 320px;
+}
+
+.player-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+}
+
+.lucroy-img {
+	background-image: url("images/lucroy.png");
+}
+
+.reynolds-img {
+	background-image: url("images/reynolds.png");
+}
+
+.dj-img {
+	background-image: url("images/dj.png");
+}
+
+.story-img {
+	background-image: url("images/story.png");
+}
+
+.player-number {
+	float: right;
+	font-size: 1.5em;
+	margin-right: 20px;
+}
