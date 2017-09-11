@@ -38,8 +38,12 @@ nav {
 	color: #9655E0;
 	display: inline-block;
 	float: right;
-	margin-right: 100px;
+	margin-right: 110px;
 	margin-top: 10px;
+}
+
+.down {
+	width: 10px;
 }
 
 h1 {
@@ -47,35 +51,45 @@ h1 {
 	float: right;
 	font-size: 2.5em;
 	position: absolute;
-	top: 45px;
+	top: 50px;
 	right: 1.5%;
 }
 
 h2 {
-	background-color: #CACDCD;
+	background-color: transparent;
+	font-size: 2.2em;
+	margin-bottom: 15px;
 	margin-left: 10px;
+	margin-top: 15px;
 }
 
 .player-cards {
-	background-color: #CACDCD;
+	background-image: url("images/baseball-field-lg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	opacity: .9;
 }
 
 .player {
-	border: 1px solid black;
+	border: 2px solid black;
+	box-shadow: 4px 4px 3px #303030;
 	margin-bottom: 10px;
-	height: 500px;
+	margin-top: 20px;
+	height: 460px;
 	width: 320px;
 }
 
 .player-image {
+	background-color: #33006F;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 200px;
-	width: 300px;
+	border-bottom: 2px solid black;
+	height: 198px;
+	width: 320px;
 }
 
 .lucroy-img {
@@ -94,8 +108,105 @@ h2 {
 	background-image: url("images/story.png");
 }
 
+.arrenado-img {
+	background-image: url("images/arrenado.png");
+}
+
+.parra-img {
+	background-image: url("images/parra.png");
+}
+
+.blackmon-img {
+	background-image: url("images/blackmon.png");
+}
+
+.cargo-img {
+	background-image: url("images/cargo.png");
+}
+
 .player-number {
+	color: #CACDCD;
 	float: right;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	margin-right: 20px;
 }
+
+.add-player {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 40px;
+}
+
+.player-info {
+	background-color: #CACDCD;
+	display: flex;
+	flex-direction: column;
+	height: 260px;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.player-name {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 8px;
+}
+
+.debut {
+	color: #505050;
+	font-size: .8em;
+	margin: 0;
+}
+
+.player-page {
+	background-color: #B0B0B0;
+	height: 50px;
+	margin: 10px auto;
+	overflow-wrap: break-word;
+	padding: 15px 5px;
+	width: 90%;
+}
+
+.walk-up {
+	font-size: .85em;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.song-name {
+	font-size: 1.1em;
+	margin-top: 0;
+	overflow-wrap: break-word;
+	width: 90%;
+}
+
+.rater {
+	font-size: .85em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.rating {
+	color: #33006F;
+	font-size: 1.8em;
+	margin: 0;
+}
+
+.player-name,
+.debut,
+.player-page,
+.walk-up,
+.song-name,
+.rater,
+.rating {
+	margin-left: 10px;
+}
+
+
+
+
+
+
