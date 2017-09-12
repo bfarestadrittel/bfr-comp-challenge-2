@@ -17,6 +17,7 @@ header {
 .icon {
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 5px;
 	width: 30px;
 }
 
@@ -25,6 +26,14 @@ nav {
 	font-size: 1.15em;
 	margin-top: 80px;
 	text-transform: uppercase;
+}
+
+.nav-link {
+	display: inline;
+}
+
+.gray-color {
+	color: #CACDCD;
 }
 
 .user {
@@ -38,7 +47,7 @@ nav {
 	color: #9655E0;
 	display: inline-block;
 	float: right;
-	margin-right: 110px;
+  margin-right: 12px;
 	margin-top: 10px;
 }
 
@@ -205,8 +214,94 @@ h2 {
 	margin-left: 10px;
 }
 
+/* Mobile Responsiveness */
 
+@media only screen and (max-width: 1300px) {
+	.player-cards {
+		background-repeat: repeat;
+	}
+}
 
+@media only screen and (max-width: 800px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+		font-size: 1em;
+		margin-top: 0;
+		margin-left: 15px;
+	}
 
+	h1 {
+		font-size: 2em;
+	}
 
+	h2 {
+		font-size: 1.8em;
+	}
 
+	.nav-link {
+		margin: 0;
+	}
+
+	.icon {
+		width: 25px;
+	}
+
+	.top-link {
+		margin-top: 15px;
+	}
+
+	.mid-link {
+		margin-top: 5px;
+		margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+	h1 {
+		color: #c9b5e1;
+    float: right;
+    font-size: 49px;
+    position: absolute; 
+    top: 45px;
+    left: 3.5%;
+	}
+
+	header {
+		background-color: #000;
+    color: #fff;
+    height: 402px;
+    width: 100%;
+	}
+
+	nav{
+		display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    margin-top: 0;
+    margin-left: 15px;
+    padding-top: 189px;
+}
+	}
+
+	.user {
+		float: right;
+    margin-right: 15px;
+    margin-top: 17px;
+    width: 50px;
+	}
+
+	.username{
+		display: none;
+	}
+
+	}	.top-link {
+		margin-top: 15px;
+		margin-bottom: 22px;
+	}
+
+	.mid-link {
+		margin-top: 5px;
+		margin-bottom: 22px;
+	}
+
+}
