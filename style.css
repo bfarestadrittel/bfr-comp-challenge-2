@@ -17,6 +17,7 @@ header {
 .icon {
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 5px;
 	width: 30px;
 }
 
@@ -25,6 +26,14 @@ nav {
 	font-size: 1.15em;
 	margin-top: 80px;
 	text-transform: uppercase;
+}
+
+.nav-link {
+	display: inline;
+}
+
+.gray-color {
+	color: #CACDCD;
 }
 
 .user {
@@ -38,7 +47,7 @@ nav {
 	color: #9655E0;
 	display: inline-block;
 	float: right;
-	margin-right: 110px;
+  margin-right: 12px;
 	margin-top: 10px;
 }
 
@@ -79,8 +88,8 @@ h2 {
 	box-shadow: 4px 4px 3px #303030;
 	margin-bottom: 10px;
 	margin-top: 20px;
-	height: 460px;
-	width: 320px;
+	height: auto;
+	width: 23%;
 }
 
 .player-image {
@@ -89,7 +98,7 @@ h2 {
 	background-position: center;
 	border-bottom: 2px solid black;
 	height: 198px;
-	width: 320px;
+	width: auto;
 }
 
 .lucroy-img {
@@ -205,8 +214,125 @@ h2 {
 	margin-left: 10px;
 }
 
+/* Mobile Responsiveness */
 
+@media only screen and (max-width: 1300px) {
+	.player-cards {
+		background-repeat: repeat;
+	}
+}
 
+/*@media screen and (max-width: 850px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+		font-size: 1em;
+		margin-top: 0;
+		margin-left: 15px;
+	}
 
+	h1 {
+		font-size: 2em;
+	}
 
+	h2 {
+		font-size: 1.8em;
+	}
 
+	.nav-link {
+		margin: 0;
+	}
+
+	.icon {
+		width: 25px;
+	}
+
+	.top-link {
+		margin-top: 15px;
+	}
+
+	.mid-link {
+		margin-top: 5px;
+		margin-bottom: 5px;
+}
+
+.player {
+	width: 45vw;
+}*/
+
+@media (max-width: 1000px) {
+	.player {
+		width: 30vw;
+	}
+}
+
+@media (max-width: 800px) {
+	h1 {
+		color: #fff;
+    float: right;
+    font-size: 40px;
+    position: absolute; 
+    top: 10px;
+    left: 3.5%;
+	}
+
+	header {
+    height: 300px;
+    width: 100%;
+	}
+
+	nav{
+		display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-left: 15px;
+    padding-top: 80px;
+}
+
+	.user {
+		float: right;
+    margin-right: 15px;
+    margin-top: 17px;
+    width: 50px;
+	}
+
+	.username{
+		display: none;
+	}
+
+	.top-link {
+		margin-top: 15px;
+		margin-bottom: 22px;
+	}
+
+	.mid-link {
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+
+	.player {
+		width: 45%;
+	}
+
+}
+
+@media (max-width: 550px) {
+	
+	.player {
+		height: auto;
+		width: 80vw;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	nav {
+		font-size: 1.2em;
+	}
+
+	.user {
+		width: 30px;
+	}
+}
